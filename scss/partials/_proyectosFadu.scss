@@ -1,0 +1,26 @@
+.titulo {
+    h3{
+    background-color: rgba(188, 179, 197, 0.322);
+    color: rgba(0, 0, 0, 0.5);
+    margin: 6% 2% 1% 2%;
+    font-weight: bold;
+    }
+
+    h2{
+        color: rgba(0, 0, 0, 0.5);
+        padding: 2% 2% 0% 2%;
+    }
+}
+
+.galeria{
+    padding: 0% 2% 0% 2%;
+
+    img{
+        width: 33%;
+    }
+    
+    video{
+         width: 67%;
+    }
+
+}

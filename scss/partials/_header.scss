@@ -1,0 +1,33 @@
+header{
+    background-color: rgba(188, 179, 197, 0.322);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        width: 4%;
+        margin-left: 2%;
+    }
+
+    .nav{
+        list-style: none;
+        margin-bottom: 0% !important;
+        li{
+            display: inline;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.3);
+            padding: 8px;
+            a{
+                text-decoration: none;
+                color: rgb(104, 104, 104);
+                a:hover{
+                    color: black;
+                }
+            }
+    
+    
+        }
+    }
+
+}
+

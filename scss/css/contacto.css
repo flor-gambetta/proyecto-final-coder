@@ -1,0 +1,8 @@
+.formulario {
+  padding: 2%;
+}
+
+input:focus {
+  background-color: rgba(126, 126, 126, 0.178);
+}
+/*# sourceMappingURL=contacto.css.map */
