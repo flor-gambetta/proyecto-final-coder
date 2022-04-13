@@ -1,7 +1,18 @@
-.formulario{
-    padding: 2%;
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20% 10% 20%;
+    
+    label{
+        padding-top: 2%;
+    }
+
 }
 
 input:focus{
+    background-color: rgba(126, 126, 126, 0.178);
+}
+
+textarea:focus{
     background-color: rgba(126, 126, 126, 0.178);
 }

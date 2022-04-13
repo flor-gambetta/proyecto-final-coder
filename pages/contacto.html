@@ -5,53 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de MFG </title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 <div class="todobody">
     <header>
-        <img src="images/logo1.png" alt="logo mfg" class="logo">
-        <nav>
+        <a href="../index.html">
+          <img src="../images/logo1.png" alt="logo mfg" class="logo">
+        </a>
+        <nav class="nav">
             <ul>
-                <li> <a href="index.html"> INICIO </a> </li>
-                <li> <a href="proyectos.html"> PROYECTOS Y DISEÑOS </a> </li>
-                <li> <a href="fadu.html"> FADU </a> </li>
-                <li> <a href="sketchbook.html"> SKETCHBOOK </a> </li>
-                <li> <a href="contacto.html"> CONTACTO </a> </li>
+              <li> <a href="../index.html"> INICIO </a> </li>
+              <li> <a href="proyectos.html"> PROYECTOS Y DISEÑOS </a> </li>
+              <li> <a href="fadu.html"> FADU </a> </li>
+              <li> <a href="sketchbook.html"> SKETCHBOOK </a> </li>
+              <li> <a href="contacto.html"> CONTACTO </a> </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <div class="titulo">
-            <h2>CONTACTO</h2>
+        <div class="banner">
+            <img src="../images/titulos/4 contacto.jpg" alt="">
+            <h1>CONTACTO</h1>
         </div>
-        
 
         <div class="formulario">
          
-            <form action="">
+            <form class="inputs" action="">
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="">
-            </form>
 
-            <form action="">
                 <label for="mail">Mail de contacto:</label>
                 <input type="email" name="mail" id="">
-            </form>
 
-            <form action="">
                 <label for="consulta">Consulta:</label>
-                <input type="text" name="consulta" id="">
-            </form>
+                <textarea name="consulta" id="" cols="30" rows="10"></textarea>
 
-            <form action="">
-                <input type="submit" value="enviar">
+                <div class="boton">
+                    <input type="submit" value="enviar">
+                </div>
             </form>
 
         </div>
 
     </main>
-
 
     <div>
         <footer>

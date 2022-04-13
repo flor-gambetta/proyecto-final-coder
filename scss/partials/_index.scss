@@ -10,10 +10,17 @@
     justify-content: flex-start;
     align-items: center;
 
-    h2{
-        font-weight: bold;
+    h1{
+        font-weight: bold !important;
+        padding-left: 10%;
+        font-size: 2.05rem;
     }
 
+    p{
+        padding-left: 10%;
+        font-size: 1.5rem;
+    }
+    
     img{
         width: 25%;
     }
@@ -25,21 +32,26 @@
 }
 
 .cajita{
+    img{
+        width: 80%;
+    }
+
     text-align: center;
     transition: all 0.2s ease-in;
-    
-    .cajita:hover{
+
+    &:hover{
         transform: scale(1.1,1.1);
     }
 }
 
 .acordeon{
-    background-color: rgba(188, 179, 197, 0.322);
-    border-color: rgba(188, 179, 197, 0.322);
+    background-color: $color-ppal;
+    width: 96%;
+    border-color: $color-ppal;
     color: rgba(0, 0, 0, 0.5);
-    padding-right: 80%;
     margin: 2% 2% 2% 2%;
     font-weight: bold;
+    text-align: start;
 }
 
 .items {

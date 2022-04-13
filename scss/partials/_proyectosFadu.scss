@@ -1,14 +1,30 @@
+.banner{
+    width: 100%;
+    position: relative;
+
+    img{
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        filter: brightness(50%);
+    }
+
+    h1{
+        position: absolute;
+        top: 80%;
+        left: 14.5%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        color: rgba(244, 241, 247, 0.459);   
+    }
+}
+
 .titulo {
-    h3{
+    h2{
     background-color: rgba(188, 179, 197, 0.322);
     color: rgba(0, 0, 0, 0.5);
     margin: 6% 2% 1% 2%;
     font-weight: bold;
-    }
-
-    h2{
-        color: rgba(0, 0, 0, 0.5);
-        padding: 2% 2% 0% 2%;
     }
 }
 
