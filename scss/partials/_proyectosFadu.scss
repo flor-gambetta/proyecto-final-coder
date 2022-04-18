@@ -21,10 +21,10 @@
 
 .titulo {
     h2{
-    background-color: rgba(188, 179, 197, 0.322);
+    background-color: map-get($titulos, color);
     color: rgba(0, 0, 0, 0.5);
-    margin: 6% 2% 1% 2%;
-    font-weight: bold;
+    margin: map-get($titulos, margin);
+    font-weight: map-get($titulos, font-weight);
     }
 }
 
