@@ -1,6 +1,81 @@
 @media screen and (max-width: 780px) {
+   
     .nav{
-        display: none;
+        li{
+            font-size: 2vw;
+            display: inline !important;
+        }
     }
     
+    .info{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 70%;
+        }
+
+        h1{
+            font-size: 1.7rem;
+            padding-top: 10%;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    .cajitasconjunto{
+        display: none
+    }
+
+    .acordeon{
+        font-size: 1.3rem;
+        padding: 5%;
+    }
+
+    .items{
+        h3{
+            font-size: 1.2rem;
+        }
+
+        p{
+            font-size:medium !important;
+        }
+    }
+
+    .banner{
+        h1{
+            font-size: 1.7rem;
+            left: 35%;
+            top: 65%;
+        }
+    }
+
+    .titulo{
+        h2{
+            font-size: 1.4rem;
+        }
+    }
+
+    .galeria{
+        padding: 0% 2% 0% 2%;
+    
+        img{
+            width: 99%;
+        }
+        
+        iframe{
+            width: 99%;
+        }
+    
+    }
+
+    .galeriaSketchbook{
+        grid-gap: 1%;
+    }
+
+    footer{
+        font-size: small;
+    }
 }

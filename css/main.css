@@ -40,7 +40,7 @@
 }
 
 .info img {
-  width: 25%;
+  width: 20vw;
 }
 
 .cajitasconjunto {
@@ -55,8 +55,8 @@
 
 .cajitasconjunto .cajita {
   background-color: rgba(240, 236, 243, 0.671);
-  width: 500px;
-  height: 350px;
+  width: 25vw;
+  height: 20vw;
   text-align: center;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -170,7 +170,7 @@ header .nav ul li a:hover {
 .banner h1 {
   position: absolute;
   top: 80%;
-  left: 14.5%;
+  margin-left: 20%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 3rem;
@@ -192,8 +192,9 @@ header .nav ul li a:hover {
   width: 33%;
 }
 
-.galeria video {
-  width: 67%;
+.galeria iframe {
+  width: 950px;
+  height: 534px;
 }
 
 .galeriaSketchbook {
@@ -276,8 +277,64 @@ footer {
 }
 
 @media screen and (max-width: 780px) {
-  .nav {
+  .nav li {
+    font-size: 2vw;
+    display: inline !important;
+  }
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info img {
+    width: 70%;
+  }
+  .info h1 {
+    font-size: 1.7rem;
+    padding-top: 10%;
+  }
+  .info p {
+    font-size: 1.2rem;
+  }
+  .cajitasconjunto {
     display: none;
+  }
+  .acordeon {
+    font-size: 1.3rem;
+    padding: 5%;
+  }
+  .items h3 {
+    font-size: 1.2rem;
+  }
+  .items p {
+    font-size: medium !important;
+  }
+  .banner h1 {
+    font-size: 1.7rem;
+    left: 35%;
+    top: 65%;
+  }
+  .titulo h2 {
+    font-size: 1.4rem;
+  }
+  .galeria {
+    padding: 0% 2% 0% 2%;
+  }
+  .galeria img {
+    width: 99%;
+  }
+  .galeria iframe {
+    width: 99%;
+  }
+  .galeriaSketchbook {
+    grid-gap: 1%;
+  }
+  footer {
+    font-size: small;
   }
 }
 
