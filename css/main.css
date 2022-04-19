@@ -6,7 +6,7 @@
 
 .info {
   color: rgba(0, 0, 0, 0.6);
-  padding: 10% !important;
+  padding: 10% 10% 5% 10% !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,21 +38,30 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .cajita {
+  background-color: rgba(240, 236, 243, 0.671);
+  width: 500px;
+  height: 300px;
   text-align: center;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-.cajita img {
-  width: 80%;
+.cajita p {
+  padding-top: 20%;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .cajita:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../images/cajitasindex/1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/cajitasindex/1.jpg);
+  color: white;
 }
 
 .acordeon {
@@ -62,6 +71,7 @@
   color: rgba(0, 0, 0, 0.5);
   margin: 2% 2% 2% 2%;
   font-weight: bold;
+  font-size: 1.8rem;
   text-align: start;
 }
 
