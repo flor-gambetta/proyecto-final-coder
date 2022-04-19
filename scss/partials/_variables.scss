@@ -4,5 +4,14 @@ $titulos: (
     color: rgba(188, 179, 197, 0.322),
     margin: 6% 2% 1% 2%,
     font-weight: bold,
-)
+);
+
+%heroImg{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+
 

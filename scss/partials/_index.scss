@@ -30,25 +30,48 @@
     padding: 5%;
     display: flex;
     justify-content: space-between;
-}
 
-.cajita{
-    background-color: rgba(240, 236, 243, 0.671);
-    width: 500px;
-    height: 300px;
+    .cajita{
+        background-color: rgba(240, 236, 243, 0.671);
+        width: 500px;
+        height: 350px;
+        text-align: center;
+        transition: all 0.2s ease-in;
+        border-radius: 2%;
+        text-decoration: none;
+    
+        p{
+            padding-top: 20%;
+            font-weight: bolder;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        
+        &:hover:nth-child(1){
+            background-image: url(../../images/cajitasindex/1.jpg);
+            background-size: cover;
+    
+            p{
+                color: white;
+            }
+        }
 
-    p{
-        padding-top: 20%;
-        font-weight: bolder;
-        color: rgba(0, 0, 0, 0.6);
-    }
-    text-align: center;
-    transition: all 0.2s ease-in;
+        &:hover:nth-child(2){
+            background-image: url(../../images/cajitasindex/2.jpg);
+            background-size: cover;
+    
+            p{
+                color: white;
+            }
+        }
 
-    &:hover{
-
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../../images/cajitasindex/1.jpg) ;
-        color: white;
+        &:hover:nth-child(3){
+            background-image: url(../../images/cajitasindex/3.jpg);
+            background-size: cover;
+    
+            p{
+                color: white;
+            }
+        }
     }
 }
 
